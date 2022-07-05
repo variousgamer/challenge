@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    user-select: none;
+}
+
+:root{
+    /*Primary colors*/
+    --color-primary-dark:hsl(300, 43%, 22%);
+    --color-primary-pink: hsl(333, 80%, 67%);
+    /*Secondary colors*/
+    --color-sec-dark:hsl(303, 10%, 53%);
+    --color-sec-Light: #F8F1F8;
+    --color-sec-White: hsl(0, 0%, 100%);
+    /*typography*/
+    --font-size: 15px;
+    --font-family:  'League Spartan', sans-serif;
+}
+
+/*title*/
+
+.title {
+    font-family: var(--font-family);
+    font-weight: 400px;
+    font-size: 45px;
+    color: var(--color-primary-dark);
+    margin-top: 120px;
+    margin-left: 120px;
+}
+
+/*paragraphe*/
+
+body > p {
+    color: var(--color-primary-dark);
+    font-family: var(--font-family);
+    font-weight: 40px;
+    font-size: 20px;
+    margin-left: 120px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+/*rating first*/
+
+.parent {
+    width: 400px;
+    height: 40px;
+    background-color: var(--color-sec-Light);
+    position: absolute;
+    top: 21%;
+    right: 20%;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.parent > p {
+    color: var(--color-primary-dark);
+    font-family: var(--font-family);
+    font-weight: bold;
+}
+
+/*rating second*/
+
+.parent-2 {
+    width: 400px;
+    height: 40px;
+    background-color: var(--color-sec-Light);
+    position: absolute;
+    top: 29%;
+    right: 15%;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.parent-2 > p {
+    color: var(--color-primary-dark);
+    font-family: var(--font-family);
+    font-weight: bold;
+}
+
+/*rating thirth*/
+
+.parent-3 {
+    width: 400px;
+    height: 40px;
+    background-color: var(--color-sec-Light);
+    position: absolute;
+    top: 37%;
+    right: 10%;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.parent-3 > p {
+    color: var(--color-primary-dark);
+    font-family: var(--font-family);
+    font-weight: bold;
+}
+
+/*card first */
+
+.card-1 {
+    width: 350px;
+    height: 200px;
+    background-color: var(--color-primary-dark);
+    border-radius: 7px;
+    position: absolute;
+    top: 57%;
+    margin-left: 120px;
+}
+
+.card-1 > img {
+    border-radius: 50%;
+    width: 45px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.card-1 > p:nth-of-type(1) {
+    color: var(--color-sec-Light);
+    font-family: var(--font-family);
+    font-weight: 500;
+    position: absolute;
+    top: 18%;
+    left: 27%;
+}
+
+.card-1>p:nth-of-type(2) {
+    color: var(--color-primary-pink);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    position: absolute;
+    top: 28%;
+    left: 27%;
+}
+
+.card-1>p:nth-of-type(3) {
+    color: var(--color-sec-Light);
+    color: var(--color-sec-Light);
+    font-family: var(--font-family);
+    font-weight: 400;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    line-height: 20px;
+}
+
+/*card second */
+
+.card-2 {
+    width: 350px;
+    height: 200px;
+    background-color: var(--color-primary-dark);
+    border-radius: 7px;
+    position: absolute;
+    top: 60%;
+    margin-left: 540px;
+}
+
+.card-2>img {
+    border-radius: 50%;
+    width: 45px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.card-2>p:nth-of-type(1) {
+    color: var(--color-sec-Light);
+    font-family: var(--font-family);
+    font-weight: 500;
+    position: absolute;
+    top: 18%;
+    left: 27%;
+}
+
+.card-2>p:nth-of-type(2) {
+    color: var(--color-primary-pink);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    position: absolute;
+    top: 28%;
+    left: 27%;
+}
+
+.card-2>p:nth-of-type(3) {
+    color: var(--color-sec-Light);
+    color: var(--color-sec-Light);
+    font-family: var(--font-family);
+    font-weight: 400;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    line-height: 20px;
+}
+
+/*card thirt*/
+
+.card-3 {
+    width: 350px;
+    height: 200px;
+    background-color: var(--color-primary-dark);
+    border-radius: 7px;
+    position: absolute;
+    top: 63%;
+    margin-left: 950px;
+}
+
+.card-3>img {
+    border-radius: 50%;
+    width: 45px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.card-3>p:nth-of-type(1) {
+    color: var(--color-sec-Light);
+    font-family: var(--font-family);
+    font-weight: 500;
+    position: absolute;
+    top: 18%;
+    left: 27%;
+}
+
+.card-3>p:nth-of-type(2) {
+    color: var(--color-primary-pink);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    position: absolute;
+    top: 28%;
+    left: 27%;
+}
+
+.card-3 >p:nth-of-type(3) {
+    color: var(--color-sec-Light);
+    color: var(--color-sec-Light);
+    font-family: var(--font-family);
+    font-weight: 400;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    line-height: 20px;
+}
+
+/*footer*/
+
+.attribution {
+    position: absolute;
+    bottom: 0%;
+    left: 40%;
+    color: var(--color-primary-dark);
+    font-family: var(--font-family);
+    font-weight: bold;
+}
+
+.attribution>a {
+    color: inherit;
+}
+
+.attribution > a:nth-of-type(2) {
+    position: absolute;
+    bottom: 0;
+}
+.attribution>p:nth-of-type(1) {
+    margin-left: 50px;
+    display: inline-block;
+}
